@@ -1,4 +1,4 @@
-# flowral-app
+# Flowral
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-flowral-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://flowral.app/
+Flowral provides a web‑based project management platform tailored for agencies, studios and service teams. It enables mapping client projects as dependent task flows, offering real‑time visibility of ready work, gating, templates, and detailed delivery reports. The solution is free for small teams and scales with paid plans, emphasizing collaboration and efficient handoffs.
+
+**Areas:** Project Management · SaaS · Collaboration · Agencies · Teams
+
+## Flowral on APIs.io
+
+Everything profiled for Flowral is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/flowral-app/](https://apis.io/providers/flowral-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Flowral Auth API](https://apis.io/apis/flowral-app/flowral-app-auth-api/) — Getting a token.
+- [Flowral Brainstorms API](https://apis.io/apis/flowral-app/flowral-app-brainstorms-api/) — Idea-tree boards, and the ideas on them.
+- [Flowral Flows API](https://apis.io/apis/flowral-app/flowral-app-flows-api/) — Projects, and everything that operates on a whole one.
+- [Flowral Notifications API](https://apis.io/apis/flowral-app/flowral-app-notifications-api/) — The notifications API from Flowral — 4 operation(s) for notifications.
+- [Flowral Search API](https://apis.io/apis/flowral-app/flowral-app-search-api/) — Finding things by name.
+- [Flowral Tasks API](https://apis.io/apis/flowral-app/flowral-app-tasks-api/) — The work, its dependencies, and moving it along.
+- [Flowral Team API](https://apis.io/apis/flowral-app/flowral-app-team-api/) — Members and invitations.
+- [Flowral Templates API](https://apis.io/apis/flowral-app/flowral-app-templates-api/) — Saved flow shapes.
+- [Flowral Work API](https://apis.io/apis/flowral-app/flowral-app-work-api/) — Ready, blocked and in-progress work across every flow.
+- [Flowral Workspace API](https://apis.io/apis/flowral-app/flowral-app-workspace-api/) — Who the credential is.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Flowral App Agentic Access](https://apis.io/agentic-access/flowral-app/flowral-app-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [FlowSummary](https://apis.io/schemas/flowral-app/flowral-app-flow-summary/)
+- [NotificationDigest](https://apis.io/schemas/flowral-app/flowral-app-notification-digest/)
+- [NotificationPreferences](https://apis.io/schemas/flowral-app/flowral-app-notification-preferences/)
+- [Report](https://apis.io/schemas/flowral-app/flowral-app-report/)
+- [Task](https://apis.io/schemas/flowral-app/flowral-app-task/)
+- [WorkItem](https://apis.io/schemas/flowral-app/flowral-app-work-item/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Flowral App Context](https://apis.io/jsonld/flowral-app/flowral-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Flowral API Rules](https://apis.io/rules/flowral-app/flowral-app-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Flowral App Authentication](https://apis.io/security/flowral-app/flowral-app-authentication/)
+- [Flowral App Domain Security](https://apis.io/security/flowral-app/flowral-app-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Flowral App Scopes](https://apis.io/scopes/flowral-app/flowral-app-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Flowral App Plans Pricing](https://apis.io/plans/flowral-app/flowral-app-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://flowral.app/)
+- [API reference](https://flowral.app/api/reference)
+- [Pricing](https://flowral.app/pricing)
+- [Terms of service](https://flowral.app/terms)
+- [Privacy policy](https://flowral.app/privacy)
+
+## API Evangelist rating
+
+**Kin Score 50.2** — developing · rubric 0.27.0 · scored 2026-11-08
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 64.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 25.5 |
+| Access clarity | 50.5 |
+
+**Agent readiness 41.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/flowral-app/](https://apis.io/providers/flowral-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Flowral: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/flowral-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
